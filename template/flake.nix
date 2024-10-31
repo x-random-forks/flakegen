@@ -3,7 +3,7 @@
 {
   description = "A very basic flake";
 
-  inputs.flakegen.url = "github:jorsn/flakegen";
+  inputs.flakegen.url = "github:x-random-forks/flakegen";
 
   outputs = inputs: inputs.flakegen ./flake.in.nix inputs;
 }
